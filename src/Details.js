@@ -20,9 +20,8 @@ import projectImage1 from "./assets/projects/project1.png";
 import projectImage2 from "./assets/projects/project2.png";
 import projectImage3 from "./assets/projects/project3.png";
 import projectImage4 from "./assets/projects/project4.png";
-import projectImage5 from "./assets/projects/project5.jpg";
-import projectImage6 from "./assets/projects/project6.jpg";
-
+import projectImage5 from "./assets/projects/project5.PNG";
+import projectImage6 from "./assets/projects/project6.png";
 
 // Enter your Personal Details here
 export const personalDetails = {
@@ -87,28 +86,25 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Algerian Fencing Federation",
+    title: "Algerian fencing federation",
     image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+    description: `The Algerian Fencing Federation website is a dynamic and engaging platform created as part of a competition to showcase the sport of fencing in Algeria.`,
     techstack: "React.js, React Router, Tailwind CSS.",
     previewLink: "https://fencing-sport.vercel.app/",
     githubLink: "https://github.com/Bourouaiah/fencing-sport",
   },
   {
-    title: "Nike Shop",
+    title: "Nike shop",
     image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+    description: `The Nike Shop is a web application created as a learning project to explore Redux and Tailwind CSS. The website offers a virtual shopping experience where users can browse a collection of Nike shoes and make purchases directly from the site.`,
     techstack: "React.js, Redux Toolkit, Tailwind CSS.",
     previewLink: "https://nike-shop-inky.vercel.app/",
     githubLink: "https://github.com/Bourouaiah/nike-shop",
   },
   {
-    title: "Hoo Bank",
+    title: "Hoo bank",
     image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+    description: `Hoo Bank is a React application developed to showcase advanced styling skills using Tailwind CSS. The project aims to create a modern and visually appealing user interface for a fictional banking application.`,
     techstack: "React.js, Tailwind CSS, Vite.",
     previewLink: "https://hoo-bank-ruby-six.vercel.app/",
     githubLink: "https://github.com/Bourouaiah/hoo-bank",
@@ -116,29 +112,26 @@ project lorem ipsum generator for dummy content`,
   {
     title: "Interno",
     image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+    description: `A web design project showcasing advanced styling skills using a Figma design. Translates complex designs into functional, visually appealing websites, emphasizing attention to detail and frontend development proficiency.`,
     techstack: "React.js, Next.js, Tawilwind CSS",
     previewLink: "https://interno-eight.vercel.app/",
     githubLink: "https://github.com/Bourouaiah/interno",
   },
   {
-    title: "Project title 5",
+    title: "Chat app",
     image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `The Chat App is a real-time messaging application that allows users to create chat rooms and start conversations with other users. The app provides a platform for users to connect and communicate with each other in a seamless and interactive environment.`,
+    techstack: "React Native, Expo, Redux Toolkit, Firebase.",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/Bourouaiah/chat-app",
   },
   {
-    title: "Project title 6",
+    title: "Deliveroo clone app",
     image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `The Chat App is a real-time messaging application that allows users to create chat rooms and start conversations with other users. The app provides a platform for users to connect and communicate with each other in a seamless and interactive environment.`,
+    techstack: "React Native, Expo, Redux Toolkit, Sanity.",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/Bourouaiah/deliveroo-clone-app",
   },
 ];
 
