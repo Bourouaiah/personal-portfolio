@@ -35,6 +35,7 @@ export const personalDetails = {
 export const socialMediaUrl = {
   linkdein: "https://www.linkedin.com/in/abdelaziz-bourouaiah-7a9ba1226/",
   github: "https://github.com/Bourouaiah",
+  resume: "https://drive.google.com/file/d/1gi4x5YIHIlD34ZV-BWl3CefagAQR-E9z/view?usp=sharing"
 };
 
 // Enter your Voluntary experience here
