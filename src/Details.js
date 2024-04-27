@@ -128,7 +128,7 @@ export const projectDetails = [
   {
     title: "Deliveroo clone app",
     image: projectImage6,
-    description: `The Chat App is a real-time messaging application that allows users to create chat rooms and start conversations with other users. The app provides a platform for users to connect and communicate with each other in a seamless and interactive environment.`,
+    description: `A mobile-responsive clone of Deliveroo, showcasing my mobile app development skills. Users can browse restaurants, explore menus, place orders, and track deliveries. Built with React Native, Firebase Firestore, and Tailwind CSS for a seamless native experience, demonstrating my ability to create intuitive and feature-rich mobile applications.`,
     techstack: "React Native, Expo, Redux Toolkit, Sanity.",
     previewLink: "https://google.com",
     githubLink: "https://github.com/Bourouaiah/deliveroo-clone-app",
