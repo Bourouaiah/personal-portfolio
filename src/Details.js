@@ -16,12 +16,13 @@ import git from "./assets/techstack/git.png";
 import npm from "./assets/techstack/npm.png";
 import figma from "./assets/techstack/figma.png";
 // Porject Images
-import projectImage1 from "./assets/projects/project1.png";
-import projectImage2 from "./assets/projects/project2.png";
-import projectImage3 from "./assets/projects/project3.png";
-import projectImage4 from "./assets/projects/project4.png";
-import projectImage5 from "./assets/projects/project5.PNG";
-import projectImage6 from "./assets/projects/project6.png";
+import chatApp from "./assets/projects/chat-app.PNG";
+import deliveroo from "./assets/projects/deliveroo.png";
+import fencingSport from "./assets/projects/fencing-sport.png";
+import interno from "./assets/projects/interno.png";
+import nikeShop from "./assets/projects/nike-shop.png";
+import hooBank from "./assets/projects/hoo-bank.png";
+import payper from "./assets/projects/payper.png";
 
 // Enter your Personal Details here
 export const personalDetails = {
@@ -87,16 +88,24 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
+    title: "Payper",
+    image: payper,
+    description: `Payper is a smart payment system where I led the software development, creating the website. It offers users a secure platform to manage accounts, conduct transactions, and access support services. Future plans include enhancing the website's features to meet evolving user needs.`,
+    techstack: "React.js, React Router, Tailwind CSS, Email JS, Firebase",
+    previewLink: "https://bourouaiah.github.io/payper/",
+    githubLink: "https://github.com/Bourouaiah/payper",
+  },
+  {
     title: "Algerian fencing federation",
-    image: projectImage1,
-    description: `The Algerian Fencing Federation website is a dynamic and engaging platform created as part of a competition to showcase the sport of fencing in Algeria.`,
+    image: fencingSport,
+    description: `The Algerian Fencing Federation website is a dynamic platform created to showcase the sport of fencing in Algeria. It features sections on athletes, competitions, news, and more, providing a comprehensive view of the fencing scene in the country.`,
     techstack: "React.js, React Router, Tailwind CSS.",
     previewLink: "https://fencing-sport.vercel.app/",
     githubLink: "https://github.com/Bourouaiah/fencing-sport",
   },
   {
     title: "Nike shop",
-    image: projectImage2,
+    image: nikeShop,
     description: `The Nike Shop is a web application created as a learning project to explore Redux and Tailwind CSS. The website offers a virtual shopping experience where users can browse a collection of Nike shoes and make purchases directly from the site.`,
     techstack: "React.js, Redux Toolkit, Tailwind CSS.",
     previewLink: "https://nike-shop-inky.vercel.app/",
@@ -104,7 +113,7 @@ export const projectDetails = [
   },
   {
     title: "Hoo bank",
-    image: projectImage3,
+    image: hooBank,
     description: `Hoo Bank is a React application developed to showcase advanced styling skills using Tailwind CSS. The project aims to create a modern and visually appealing user interface for a fictional banking application.`,
     techstack: "React.js, Tailwind CSS, Vite.",
     previewLink: "https://hoo-bank-ruby-six.vercel.app/",
@@ -112,7 +121,7 @@ export const projectDetails = [
   },
   {
     title: "Interno",
-    image: projectImage4,
+    image: interno,
     description: `A web design project showcasing advanced styling skills using a Figma design. Translates complex designs into functional, visually appealing websites, emphasizing attention to detail and frontend development proficiency.`,
     techstack: "React.js, Next.js, Tawilwind CSS",
     previewLink: "https://interno-eight.vercel.app/",
@@ -120,7 +129,7 @@ export const projectDetails = [
   },
   {
     title: "Chat app",
-    image: projectImage5,
+    image: chatApp,
     description: `The Chat App is a real-time messaging application that allows users to create chat rooms and start conversations with other users. The app provides a platform for users to connect and communicate with each other in a seamless and interactive environment.`,
     techstack: "React Native, Expo, Redux Toolkit, Firebase.",
     previewLink: "https://google.com",
@@ -128,8 +137,8 @@ export const projectDetails = [
   },
   {
     title: "Deliveroo clone app",
-    image: projectImage6,
-    description: `A mobile-responsive clone of Deliveroo, showcasing my mobile app development skills. Users can browse restaurants, explore menus, place orders, and track deliveries. Built with React Native, Firebase Firestore, and Tailwind CSS for a seamless native experience, demonstrating my ability to create intuitive and feature-rich mobile applications.`,
+    image: deliveroo,
+    description: `A mobile-responsive Deliveroo clone demonstrating my app development skills. Users can browse restaurants, explore menus, place orders, and track deliveries, showcasing a seamless and intuitive mobile experience.`,
     techstack: "React Native, Expo, Redux Toolkit, Sanity.",
     previewLink: "https://google.com",
     githubLink: "https://github.com/Bourouaiah/deliveroo-clone-app",
