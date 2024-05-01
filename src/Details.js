@@ -36,7 +36,7 @@ export const personalDetails = {
 export const socialMediaUrl = {
   linkdein: "https://www.linkedin.com/in/abdelaziz-bourouaiah-7a9ba1226/",
   github: "https://github.com/Bourouaiah",
-  resume: "https://drive.google.com/file/d/1gi4x5YIHIlD34ZV-BWl3CefagAQR-E9z/view?usp=sharing"
+  resume: "https://drive.google.com/file/d/1zNVDXOmdNmJdHZyH4g04E8yiQvivrVbo/view?usp=drive_link"
 };
 
 // Enter your Voluntary experience here
@@ -134,15 +134,7 @@ export const projectDetails = [
     techstack: "React Native, Expo, Redux Toolkit, Firebase.",
     previewLink: "https://google.com",
     githubLink: "https://github.com/Bourouaiah/chat-app",
-  },
-  {
-    title: "Deliveroo clone app",
-    image: deliveroo,
-    description: `A mobile-responsive Deliveroo clone demonstrating my app development skills. Users can browse restaurants, explore menus, place orders, and track deliveries, showcasing a seamless and intuitive mobile experience.`,
-    techstack: "React Native, Expo, Redux Toolkit, Sanity.",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com/Bourouaiah/deliveroo-clone-app",
-  },
+  }
 ];
 
 // Enter your Contact Details here
