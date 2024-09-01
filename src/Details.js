@@ -16,8 +16,7 @@ import git from "./assets/techstack/git.png";
 import npm from "./assets/techstack/npm.png";
 import figma from "./assets/techstack/figma.png";
 // Porject Images
-import chatApp from "./assets/projects/chat-app.PNG";
-import deliveroo from "./assets/projects/deliveroo.png";
+import alGss from "./assets/projects/al-gss.png";
 import fencingSport from "./assets/projects/fencing-sport.png";
 import interno from "./assets/projects/interno.png";
 import nikeShop from "./assets/projects/nike-shop.png";
@@ -66,6 +65,13 @@ export const eduDetails = [
     Type: "Full Time",
     Duration: "Sep 2021 - Present",
   },
+  {
+    Position: "Master's Degree in Computer Engineering",
+    Company: `Institute of Electrical and Electronics Engineers`,
+    Location: "Boumerdes, Algeria",
+    Type: "Full Time",
+    Duration: "Sep 2024 - Present",
+  },
 ];
 
 // Tech Stack and Tools
@@ -96,12 +102,12 @@ export const projectDetails = [
     githubLink: "https://github.com/Bourouaiah/payper",
   },
   {
-    title: "Algerian fencing federation",
-    image: fencingSport,
-    description: `The Algerian Fencing Federation website is a dynamic platform created to showcase the sport of fencing in Algeria. It features sections on athletes, competitions, news, and more, providing a comprehensive view of the fencing scene in the country.`,
-    techstack: "React.js, React Router, Tailwind CSS.",
-    previewLink: "https://fencing-sport.vercel.app/",
-    githubLink: "https://github.com/Bourouaiah/fencing-sport",
+    title: "AL-GSS",
+    image: alGss,
+    description: `The AL-GSS website is a multilingual platform in Arabic, French, and English, highlighting the company's expertise in oil and gas services. It emphasizes AL-GSS's pivotal role in Algeria's industrial landscape with a user-friendly, responsive design.`,
+    techstack: "React.js, Tailwind CSS, Email JS",
+    previewLink: "https://lourscorp.vercel.app/",
+    githubLink: "https://github.com/Bourouaiah/lourscorp",
   },
   {
     title: "Nike shop",
@@ -110,6 +116,14 @@ export const projectDetails = [
     techstack: "React.js, Redux Toolkit, Tailwind CSS.",
     previewLink: "https://nike-shop-inky.vercel.app/",
     githubLink: "https://github.com/Bourouaiah/nike-shop",
+  },
+  {
+    title: "Algerian fencing federation",
+    image: fencingSport,
+    description: `The Algerian Fencing Federation website is a dynamic platform created to showcase the sport of fencing in Algeria. It features sections on athletes, competitions, news, and more, providing a comprehensive view of the fencing scene in the country.`,
+    techstack: "React.js, React Router, Tailwind CSS.",
+    previewLink: "https://fencing-sport.vercel.app/",
+    githubLink: "https://github.com/Bourouaiah/fencing-sport",
   },
   {
     title: "Hoo bank",
@@ -127,14 +141,6 @@ export const projectDetails = [
     previewLink: "https://interno-eight.vercel.app/",
     githubLink: "https://github.com/Bourouaiah/interno",
   },
-  {
-    title: "Chat app",
-    image: chatApp,
-    description: `The Chat App is a real-time messaging application that allows users to create chat rooms and start conversations with other users. The app provides a platform for users to connect and communicate with each other in a seamless and interactive environment.`,
-    techstack: "React Native, Expo, Redux Toolkit, Firebase.",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com/Bourouaiah/chat-app",
-  }
 ];
 
 // Enter your Contact Details here
