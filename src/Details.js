@@ -1,7 +1,4 @@
-// Enter all your detials in this file
-// Profile Image
 import profile from "./assets/profile.png";
-// Tech stack images
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
 import expo from "./assets/techstack/expo.png";
@@ -15,7 +12,6 @@ import github from "./assets/techstack/github.png";
 import git from "./assets/techstack/git.png";
 import npm from "./assets/techstack/npm.png";
 import figma from "./assets/techstack/figma.png";
-// Porject Images
 import alGss from "./assets/projects/al-gss.png";
 import fencingSport from "./assets/projects/fencing-sport.png";
 import interno from "./assets/projects/interno.png";
@@ -23,7 +19,6 @@ import nikeShop from "./assets/projects/nike-shop.png";
 import hooBank from "./assets/projects/hoo-bank.png";
 import payper from "./assets/projects/payper.png";
 
-// Enter your Personal Details here
 export const personalDetails = {
   name: "Abdelaziz Bourouaiah",
   tagline: "I build things for web and app.",
@@ -31,14 +26,22 @@ export const personalDetails = {
   about: `Studying at the Institute of Electrical and Electronic Engineering in Boumerdes. Skilled in building websites and apps using ReactJS and React Native. Good at managing time, solving problems, and working well with others. Like sharing ideas and knowledge with teammates.`,
 };
 
-// Enter your Social Media URLs here
 export const socialMediaUrl = {
   linkdein: "https://www.linkedin.com/in/abdelaziz-bourouaiah-7a9ba1226/",
   github: "https://github.com/Bourouaiah",
-  resume: "https://drive.google.com/file/d/1zNVDXOmdNmJdHZyH4g04E8yiQvivrVbo/view?usp=drive_link"
+  resume: "https://drive.google.com/file/d/1XkgiUSvxE3yk_syCzyEBThV3yvD2Nvjw/view?usp=sharing"
 };
 
-// Enter your Voluntary experience here
+export const workDetails = [
+  {
+    Position: "Frontend Web Developer",
+    Company: `Chateer`,
+    Location: "Boumerdes, Algeria",
+    Type: "Remote",
+    Duration: "October 2024 - Present",
+  },
+];
+
 export const experienceDetails = [
   {
     Position: "Frontend Web Developement Mentor in WebDev version 3.0",
@@ -56,25 +59,23 @@ export const experienceDetails = [
   },
 ];
 
-// Enter your Education Details here
 export const eduDetails = [
   {
     Position: "Bachelor in Electronics & Electricity",
     Company: `Institute of Electrical and Electronics Engineers`,
     Location: "Boumerdes, Algeria",
     Type: "Full Time",
-    Duration: "Sep 2021 - Present",
+    Duration: "Sep 2021 - Jun 2024",
   },
   {
     Position: "Master's Degree in Computer Engineering",
     Company: `Institute of Electrical and Electronics Engineers`,
     Location: "Boumerdes, Algeria",
     Type: "Full Time",
-    Duration: "Sep 2024 - Present",
+    Duration: "Sep 2024 - Jun 2026",
   },
 ];
 
-// Tech Stack and Tools
 export const techStackDetails = {
   html: html,
   css: css,
@@ -91,7 +92,6 @@ export const techStackDetails = {
   figma: figma,
 };
 
-// Enter your Project Details here
 export const projectDetails = [
   {
     title: "Payper",
@@ -106,7 +106,7 @@ export const projectDetails = [
     image: alGss,
     description: `The AL-GSS website is a multilingual platform in Arabic, French, and English, highlighting the company's expertise in oil and gas services. It emphasizes AL-GSS's pivotal role in Algeria's industrial landscape with a user-friendly, responsive design.`,
     techstack: "React.js, Tailwind CSS, Email JS",
-    previewLink: "https://lourscorp.vercel.app/",
+    previewLink: "https://al-gss.com/",
     githubLink: "https://github.com/Bourouaiah/lourscorp",
   },
   {
@@ -143,7 +143,6 @@ export const projectDetails = [
   },
 ];
 
-// Enter your Contact Details here
 export const contactDetails = {
   email: "abdoubrh26@gmail.com",
   phone: "+213 553 32 91 64",
